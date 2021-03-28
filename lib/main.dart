@@ -23,8 +23,11 @@ class _MyAppState extends State<MyApp> {
               color: Colors.white
             ),),
             actions: [
-              Icon(Icons.videocam_outlined,color: Colors.white,)
-            ],
+              IconButton(icon: Icon(Icons.videocam_outlined,color: Colors.white,),
+                  onPressed: (){}),
+              IconButton(icon: Icon(Icons.edit,color: Colors.white,),
+                  onPressed: (){})
+                          ],
             bottom: TabBar(
               indicatorColor: Colors.white,
 
